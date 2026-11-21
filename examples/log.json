@@ -1,0 +1,47 @@
+{
+  "logId": "paper-catalog",
+  "title": "Paper catalog changelog",
+  "context": "Choose null semantics from the source format documentation.",
+  "initial": [
+    {
+      "key": "kept",
+      "value": "Unchanged"
+    },
+    {
+      "key": "removed",
+      "value": "Old card"
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "key": "card",
+      "value": "Draft text"
+    },
+    {
+      "id": "e2",
+      "key": "removed",
+      "value": null
+    },
+    {
+      "id": "e3",
+      "key": "card",
+      "value": "Final text"
+    },
+    {
+      "id": "e4",
+      "key": "empty",
+      "value": null
+    },
+    {
+      "id": "e5",
+      "key": "count",
+      "value": 3
+    },
+    {
+      "id": "e6",
+      "key": "flag",
+      "value": false
+    }
+  ]
+}
